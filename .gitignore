@@ -1,3 +1,9 @@
 # Private interview prep: contains customer revenue details
 Taelor_Chmura_Portfolio_Revenue_Model_and_Verification.md
 Taelor_Nitra_interview_notes.md
+interview-questions.md
+taelor-retention-interview-prep.html
+
+# Never commit zip archives; Zone.Identifier files are Windows download markers
+*.zip
+*:Zone.Identifier
