@@ -114,7 +114,7 @@
 
     .brand {
       font-weight: 800;
-      font-size: 1.15rem;
+      font-size: 1.6rem;
       letter-spacing: -.05em
     }
 
@@ -433,6 +433,10 @@
       min-height: calc(2lh + 14px)
     }
 
+    #fit>.about {
+      margin-bottom: 40px
+    }
+
     .approach {
       background: var(--approach);
       border: 1px solid var(--line);
@@ -474,23 +478,6 @@
       color: var(--body2);
       margin: 0 0 16px;
       font-size: 1.04rem
-    }
-
-    .pills {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 9px;
-      margin-top: 24px
-    }
-
-    .pill {
-      border: 1px solid var(--pillline);
-      padding: 7px 12px;
-      border-radius: 100px;
-      font-size: .78rem;
-      color: var(--pilltext);
-      background: var(--pillbg);
-      font-weight: 700
     }
 
     .timeline {
@@ -663,6 +650,10 @@
 
       nav {
         height: 66px
+      }
+
+      .brand {
+        font-size: 1.4rem
       }
 
       .menu {
@@ -918,10 +909,20 @@
     </div>
 
     <section id="fit" class="wrap">
-      <div class="sectionintro">
+      <div id="healthcare" class="about">
         <div>
-          <p class="eyebrow">Role fit</p>
-          <h2 class="compact">Why I fit.</h2>
+          <p class="eyebrow">Why I'm a fit for Nitra</p>
+          <h2>I know<br>the customer's world.</h2>
+        </div>
+        <div>
+          <p>Nitra builds software and financial tools for doctors. Before moving into tech, I spent years in healthcare:
+            at Children's Hospital of Richmond at VCU, at Bon Secours, and in cancer research at VCU Massey Cancer Center.
+          </p>
+          <p>That taught me how to communicate clearly and calmly in fast-paced clinical settings, where time is short and
+            clarity matters. It's the same skill that makes a customer feel supported instead of sold to, especially when
+            they aren't technical and just want a tool that works.</p>
+          <p>My move into tech was intentional. I spent nearly two years working toward it, and I've kept building:
+            learning B2B SaaS and customer data quickly, and using tools like Salesforce and AI to work smarter.</p>
         </div>
       </div>
       <div class="casegrid fitgrid">
@@ -1023,27 +1024,6 @@
             and followed through on outstanding accounts-receivable cases until they were closed.</p>
           <div class="bottom">80% fewer outstanding A/R cases (15 to 3)</div>
         </article>
-      </div>
-    </section>
-
-    <section id="healthcare" class="wrap about">
-      <div>
-        <p class="eyebrow">Why I'm a fit for Nitra</p>
-        <h2>I know<br>the customer's world.</h2>
-      </div>
-      <div>
-        <p>Nitra builds software and financial tools for doctors. Before moving into tech, I spent years in healthcare:
-          at Children's Hospital of Richmond at VCU, at Bon Secours, and in cancer research at VCU Massey Cancer Center.
-        </p>
-        <p>That taught me how to communicate clearly and calmly in fast-paced clinical settings, where time is short and
-          clarity matters. It's the same skill that makes a customer feel supported instead of sold to, especially when
-          they aren't technical and just want a tool that works.</p>
-        <p>My move into tech was intentional. I spent nearly two years working toward it, and I've kept building:
-          learning B2B SaaS and customer data quickly, and using tools like Salesforce and AI to work smarter.</p>
-        <div class="pills"><span class="pill">Healthcare background</span><span class="pill">Customer
-            retention</span><span class="pill">Account growth</span><span class="pill">Salesforce</span><span
-            class="pill">AI-assisted workflows</span><span class="pill">Customer training</span><span
-            class="pill">Cross-functional collaboration</span></div>
       </div>
     </section>
 
