@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Owl">
+  <rect width="64" height="64" rx="15" fill="#193d33"/>
+  <g transform="translate(32 33.5) scale(1.1) translate(-32 -33.5)">
+  <!-- body with ear tufts -->
+  <path d="M13 21 19.5 8.5 27 16.2Q32 14.6 37 16.2L44.5 8.5 51 21Q53 25 53 31V40Q53 55 32 58Q11 55 11 40V31Q11 25 13 21Z" fill="#c0e2d1"/>
+  <!-- facial disc -->
+  <path d="M32 23.5C38 21 51 22 51 33 51 41 44 44 32 43.5 20 44 13 41 13 33 13 22 26 21 32 23.5Z" fill="#8fc9ae"/>
+  <!-- eyes -->
+  <circle cx="22.5" cy="31.5" r="9.2" fill="#f7f8f6"/>
+  <circle cx="41.5" cy="31.5" r="9.2" fill="#f7f8f6"/>
+  <circle cx="23.5" cy="32" r="4.6" fill="#193d33"/>
+  <circle cx="40.5" cy="32" r="4.6" fill="#193d33"/>
+  <circle cx="25.2" cy="30.2" r="1.5" fill="#fff"/>
+  <circle cx="42.2" cy="30.2" r="1.5" fill="#fff"/>
+  <!-- beak -->
+  <path d="M32 36.5 28.2 43.5Q32 46.5 35.8 43.5Z" fill="#e7a33c"/>
+  <!-- belly feathers -->
+  <path d="M25 51Q28.5 53.5 32 51Q35.5 53.5 39 51" fill="none" stroke="#8fc9ae" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>
